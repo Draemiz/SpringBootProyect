@@ -40,7 +40,9 @@ public class Estudiante {
 
 	@Override
 	public String toString() {
-		return "Estudiante [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + "]";
+		return "Estudiante [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", getCedula()="
+				+ getCedula() + ", getNombre()=" + getNombre() + ", getApellido()=" + getApellido() + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
 	
 	

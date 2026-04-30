@@ -26,10 +26,13 @@ public class Asistencia {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
+	
 	@Override
 	public String toString() {
 		return "Asistencia [fechaClase=" + fechaClase + ", fechaHoraRegistro=" + fechaHoraRegistro + ", estado="
-				+ estado + "]";
+				+ estado + ", getFechaClase()=" + getFechaClase() + ", getFechaHoraRegistro()=" + getFechaHoraRegistro()
+				+ ", getEstado()=" + getEstado() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
 	}
 	
 	
