@@ -1,49 +1,39 @@
 package com.krakedev.asistencias.dto;
 
-
-
 public class Estudiante {
-	
-	private String cedula;
-	private String nombre;
-	private String apellido;
-	
-	public Estudiante() {
-		
-		
 
-	}
+    private String cedula;
+    private String nombre;
+    private String apellido;
 
-	public String getCedula() {
-		return cedula;
-	}
+    public Estudiante() {}
 
-	public void setCedula(String cedula) {
-		this.cedula = cedula;
-	}
+    public String getCedula() {
+        return cedula;
+    }
 
-	public String getNombre() {
-		return nombre;
-	}
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
+    }
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
+    public String getNombre() {
+        return nombre;
+    }
 
-	public String getApellido() {
-		return apellido;
-	}
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-	public void setApellido(String apellido) {
-		this.apellido = apellido;
-	}
+    public String getApellido() {
+        return apellido;
+    }
 
-	@Override
-	public String toString() {
-		return "Estudiante [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", getCedula()="
-				+ getCedula() + ", getNombre()=" + getNombre() + ", getApellido()=" + getApellido() + ", getClass()="
-				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
-	}
-	
-	
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    @Override
+    public String toString() {
+        return "Estudiante [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + "]";
+    }
 }
