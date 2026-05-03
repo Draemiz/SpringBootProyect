@@ -34,6 +34,6 @@ public class Estudiante {
 
     @Override
     public String toString() {
-        return "Estudiante [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + "]";
+        return "Datos del Estudiante: Cedula: " + cedula + ", nombre: " + nombre + ", apellido: " + apellido + ".";
     }
 }
