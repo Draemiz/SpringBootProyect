@@ -1,6 +1,9 @@
-package com.krakedev.asistencias.dto;
+package com.krakedev.asistencias.servicios;
 
 import java.util.ArrayList;
+
+import com.krakedev.asistencias.dto.Asistencia;
+import com.krakedev.asistencias.dto.RegistroAsistencia;
 
 public class ServicioAsistencia {
 

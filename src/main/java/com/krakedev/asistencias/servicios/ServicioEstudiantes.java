@@ -1,7 +1,9 @@
-package com.krakedev.asistencias.dto;
+package com.krakedev.asistencias.servicios;
 
 import java.util.ArrayList;
 import org.springframework.stereotype.Service;
+
+import com.krakedev.asistencias.dto.Estudiante;
 
 @Service
 public class ServicioEstudiantes {

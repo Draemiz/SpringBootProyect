@@ -34,7 +34,4 @@ public class Asistencia {
 				+ ", getEstado()=" + getEstado() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
 				+ ", toString()=" + super.toString() + "]";
 	}
-	
-	
-
 }
